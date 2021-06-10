@@ -10,9 +10,9 @@ public class Ejercicio2Parte2{
         System.out.print("Ingrese un numero entero: ");
         num = scanner.nextInt();
         System.out.print("Los valores entre " + num + " y 1 son: ");
-        for(int i=0; i < (num-1); i++){
-            num--;
+        for(int i=0; i <= num; i++){
             System.out.print(num + ", ");
+            num--;
         }
         System.out.println(num + "."); 
     }
